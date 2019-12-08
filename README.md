@@ -1,7 +1,7 @@
 # code
 
 
-5 LongestPalindromicSubstring
+5 LongestPalindromicSubstring: https://github.com/liveForOthers/code/blob/master/src/code/code_0005/LongestPalindromicSubstring.java
 
 7 ReverseInteger: https://github.com/liveForOthers/code/blob/master/src/code/code_0007/ReverseInteger.java
 
