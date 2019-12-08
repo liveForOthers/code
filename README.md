@@ -1,6 +1,6 @@
 # code
 
-3 LongestSubstringWithoutRepeatingCharacters: 
+3 LongestSubstringWithoutRepeatingCharacters: https://github.com/liveForOthers/code/blob/master/src/code/code_0003/LongestSubstringWithoutRepeatingCharacters.java
 
 5 LongestPalindromicSubstring: https://github.com/liveForOthers/code/blob/master/src/code/code_0005/LongestPalindromicSubstring.java
 
