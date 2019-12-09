@@ -12,3 +12,7 @@
 
 
 14 LongestCommonPrefix: https://github.com/liveForOthers/code/blob/master/src/code/code_0014/LongestCommonPrefix.java
+
+15 ThreeSum:
+
+16 ThreeSumClosest:
