@@ -6,6 +6,13 @@ public class RemoveNthFromEnd {
         removeNthFromEnd(new ListNode(1), 1);
     }
 
+    /*
+     *  1 对于链表  建立伪头
+     *  2 求出长度
+     *  3 n超出长度时 取余  注意1%1==0
+     *  4 处理节点删除  如删除的为尾巴节点 要将尾巴前一个节点next置null
+     *
+     * */
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null || n <= 0) {
             return head;
@@ -18,7 +25,7 @@ public class RemoveNthFromEnd {
             len++;
             node = node.next;
         }
-        if (n>len){
+        if (n > len) {
             n = n % len;
         }
         ListNode prev = dummyHead;
