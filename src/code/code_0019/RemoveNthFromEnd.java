@@ -1,5 +1,7 @@
 package code.code_0019;
 
+import code.common.ListNode;
+
 public class RemoveNthFromEnd {
 
     public static void main(String[] args) {
@@ -46,12 +48,5 @@ public class RemoveNthFromEnd {
         return dummyHead.next;
     }
 
-    static public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
