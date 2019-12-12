@@ -27,3 +27,5 @@
 
 21 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0021/MergeTwoSortedLists.java">MergeTwoSortedLists</a>
 
+22 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0022/GenerateParentheses.java">GenerateParentheses</a>
+
