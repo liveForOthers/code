@@ -29,3 +29,4 @@
 
 22 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0022/GenerateParentheses.java">GenerateParentheses</a>
 
+23 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0022/MergeKSortedLists.java">MergeKSortedLists</a>
