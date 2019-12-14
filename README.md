@@ -42,3 +42,5 @@
 28 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0028/ImplementStrStr.java">ImplementStrStr</a>
 
 29 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0029/DivideTwoIntegers.java">DivideTwoIntegers</a>
+
+31 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0031/NextPermutation.java">NextPermutation</a>
