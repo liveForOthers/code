@@ -34,3 +34,7 @@
 24 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0024/SwapNodesInPairs.java">SwapNodesInPairs</a>
 
 26 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0026/RemoveDuplicatesFromSortedArray.java">RemoveDuplicatesFromSortedArray</a>
+
+27 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0027/RemoveElement.java">RemoveElement</a>
+
+28 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0028/ImplementStrStr.java">ImplementStrStr</a>
