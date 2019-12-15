@@ -48,4 +48,6 @@
 32 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0032/LongestValidParenthesesUseDp.java">LongestValidParenthesesUseDp</a>
 
    <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0032/LongestValidParenthesesUseStack.java">LongestValidParenthesesUseStack</a>
+   
+   <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0032/LongestValidParenthesesUseTwoPoints.java">LongestValidParenthesesUseTwoPoints</a>
 
