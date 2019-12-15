@@ -1,6 +1,6 @@
 package code.code_0032;
 
-public class LongestValidParentheses {
+public class LongestValidParenthesesUseDp {
     /*
      *  本题意 目的是找连续子串中 最长的 有效 括号对 字符数
      *  共三种高效算法 本示例展示 动态规划算法
