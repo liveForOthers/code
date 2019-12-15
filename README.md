@@ -46,3 +46,6 @@
 31 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0031/NextPermutation.java">NextPermutation</a>
 
 32 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0032/LongestValidParenthesesUseDp.java">LongestValidParenthesesUseDp</a>
+
+   <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0032/LongestValidParenthesesUseStack.java">LongestValidParenthesesUseStack</a>
+
