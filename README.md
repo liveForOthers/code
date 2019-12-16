@@ -56,6 +56,8 @@
 34 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0034/FindFirstAndLastPositionOfElementInSortedArray.java">FindFirstAndLastPositionOfElementInSortedArray</a>
   
 35 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0035/SearchInsertPosition.java">SearchInsertPosition</a> 
+
+36 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0036/isValidSudoku.java">isValidSudoku</a> 
    
    
    
