@@ -63,7 +63,7 @@
 
 39 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0039/CombinationSum.java">CombinationSum</a> 
    
-40 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0039/CombinationSumII.java">CombinationSumII</a> 
+40 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0040/CombinationSumII.java">CombinationSumII</a> 
    
    
    
