@@ -58,6 +58,8 @@
 35 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0035/SearchInsertPosition.java">SearchInsertPosition</a> 
 
 36 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0036/isValidSudoku.java">isValidSudoku</a> 
+
+38 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0038/CountAndSay.java">CountAndSay</a> 
    
    
    
