@@ -67,5 +67,5 @@
    
 41 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0041/FirstMissingPositive.java">FirstMissingPositive</a>    
    
-   
+42 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0042/TrappingRainWater.java">TrappingRainWater</a>    
 
