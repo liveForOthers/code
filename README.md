@@ -77,5 +77,5 @@
 
 46 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0046/Permutations.java">Permutations</a>
 
-47 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0046/Permutations.java">PermutationsII</a>  
+47 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0047/Permutations.java">PermutationsII</a>  
 
