@@ -82,5 +82,5 @@
 48 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0048/RotateImage.java">RotateImage</a> 
 
 49 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0049/GroupAnagrams.java">GroupAnagrams</a>   
+50 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_0050/Pow.java">Pow</a>
 
-GroupAnagrams
