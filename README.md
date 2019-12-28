@@ -92,3 +92,5 @@
 55 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0055/JumpGame.java">JumpGame</a> 
 
 56 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0056/MergeIntervals.java">MergeIntervals</a> 
+
+58 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0058/LengthOfLastWord.java">LengthOfLastWord</a> 
