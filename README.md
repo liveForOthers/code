@@ -108,3 +108,6 @@
 64 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0064/MinimumPathSum.java">MinimumPathSum</a> 
 
 65 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0065/ValidNumber.java">ValidNumber</a> 
+
+66 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0066/PlusOne.java">PlusOne</a> 
+
