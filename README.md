@@ -111,3 +111,4 @@
 
 66 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0066/PlusOne.java">PlusOne</a> 
 
+67 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0067/AddBinary.java">AddBinary</a>
