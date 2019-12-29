@@ -12,6 +12,7 @@ public class Sqrt {
      * 学习：
      * 1 二分法 变种  取到右中位数
      *   //TODO 二分法变种
+     *   链接： 需要学习下：https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
      *
      * 2 对于mid*mid 要考虑溢出问题  所以要先转为long 再进行计算
      *
