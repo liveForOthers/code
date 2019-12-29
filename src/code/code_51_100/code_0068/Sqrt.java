@@ -16,6 +16,12 @@ public class Sqrt {
      *
      * 2 对于mid*mid 要考虑溢出问题  所以要先转为long 再进行计算
      *
+     * 3 TODO 取中位数方法学习
+     *             // 这种取中位数的方法又快又好，是我刚学会的，原因在下面这篇文章的评论区
+            // https://www.liwei.party/2019/06/17/leetcode-solution-new/search-insert-position/
+            // 注意：这里得用无符号右移
+            long mid = (left + right + 1) >>> 1;
+     *
      * */
     public static int mySqrt(int x) {
         if (x < 0) {
