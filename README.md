@@ -117,5 +117,5 @@
 
 69 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0069/ClimbingStairs.java">ClimbingStairs</a>
 
-
+70 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0070/SimplifyPath.java">SimplifyPath</a>
 
