@@ -119,3 +119,4 @@
 
 70 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0070/SimplifyPath.java">SimplifyPath</a>
 
+71 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0071/EditDistance.java">EditDistance</a>
