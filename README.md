@@ -125,3 +125,6 @@
 
 73 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0073/SearchA2DMatrix.java">SearchA2DMatrix</a>
 
+74 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0074/SortColors.java">SortColors</a>
+
+
