@@ -1,4 +1,4 @@
-package code.code_51_100.code_0070;
+package code.code_51_100.code_0071;
 
 import java.util.Deque;
 import java.util.LinkedList;
