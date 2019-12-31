@@ -1,4 +1,4 @@
-package code.code_51_100.code_0073;
+package code.code_51_100.code_0074;
 
 public class SearchA2DMatrix {
 

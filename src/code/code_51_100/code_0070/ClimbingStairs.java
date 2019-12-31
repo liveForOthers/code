@@ -1,4 +1,4 @@
-package code.code_51_100.code_0069;
+package code.code_51_100.code_0070;
 
 public class ClimbingStairs {
 

@@ -1,4 +1,4 @@
-package code.code_51_100.code_0071;
+package code.code_51_100.code_0072;
 
 public class EditDistance {
 

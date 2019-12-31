@@ -1,4 +1,4 @@
-package code.code_51_100.code_0072;
+package code.code_51_100.code_0073;
 
 public class SetMatrixZeroes {
 
