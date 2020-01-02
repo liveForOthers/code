@@ -142,3 +142,5 @@
 82 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0082/RemoveDuplicatesFromSortedListII.java">RemoveDuplicatesFromSortedListII</a>
 
 83 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0083/RemoveDuplicatesFromSortedList.java">RemoveDuplicatesFromSortedList</a>
+
+84 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_51_100/code_0084/LargestRectangleInHistogram.java">LargestRectangleInHistogram</a>
