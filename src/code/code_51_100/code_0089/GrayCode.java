@@ -113,6 +113,40 @@ public class GrayCode {
     }
 
     public static void main(String[] args) {
-        grayCode(3);
+        grayCode2(3);
+    }
+
+    public static List<Integer> grayCode2(int n) {
+        List<Integer> res = new ArrayList<>();
+        if (n < 0) {
+            return res;
+        }
+        res.add(0);
+        int count = 1 << n;
+        int prev = 0;
+        for (int i = 0; i < count - 1; i++) {
+            // 奇数 最后一位1左侧取反
+            // 学习 取反通过 与该位为1的数进行异或实现
+            if ((i & 1) == 1) {
+                int val = (prev & -prev) << 1;
+                prev = prev ^ val;
+                res.add(prev);
+                /*int temp = prev;
+                for (int j = 0; j < 32; j++) {
+                    if ((temp & 1) == 1) {
+                        prev = prev ^ ((1 << j) << 1);
+                        res.add(prev);
+                        break;
+                    }
+                    temp = temp >> 1;
+                }*/
+            } else {
+                // 偶数 最后一位取反
+                // 学习  最后一位取反 通过 与1 进行异或实现
+                prev = prev ^ 1;
+                res.add(prev);
+            }
+        }
+        return res;
     }
 }
