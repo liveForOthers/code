@@ -32,7 +32,7 @@ public class ConvertSortedArrayToBinarySearchTree {
      *
      * 递归实现
      *
-     * 时间复杂度：O(N) 空间复杂度：O(N)
+     * 时间复杂度：O(logN) 空间复杂度：O(logN)
      *
      * 学习：
      * code友给出了两种迭代写法：
