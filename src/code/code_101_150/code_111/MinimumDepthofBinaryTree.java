@@ -90,8 +90,34 @@ public class MinimumDepthofBinaryTree {
         root.right.right = new TreeNode(7);
 
 
-        minDepth2(root);
+        int i = minDepth3(root);
+        System.out.println(i);
     }
 
+    /*
+     * 使用栈实现迭代dfs
+     * */
+    public static int minDepth3(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Pair<TreeNode, Integer> pair = new Pair<TreeNode, Integer>(root, 1);
+        Deque<Pair<TreeNode, Integer>> stack = new LinkedList<>();
+        stack.push(pair);
+        int minDepthRes = Integer.MAX_VALUE;
+        while (!stack.isEmpty()) {
+            Pair<TreeNode, Integer> curPair = stack.pop();
+            if (curPair.getKey().left == null && curPair.getKey().right == null) {
+                minDepthRes = Math.min(minDepthRes, curPair.getValue());
+            }
+            if (curPair.getKey().left != null) {
+                stack.push(new Pair<>(curPair.getKey().left, curPair.getValue() + 1));
+            }
+            if (curPair.getKey().right != null) {
+                stack.push(new Pair<>(curPair.getKey().right, curPair.getValue() + 1));
+            }
+        }
+        return minDepthRes;
+    }
 
 }
