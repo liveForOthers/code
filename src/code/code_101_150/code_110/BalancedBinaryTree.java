@@ -31,13 +31,28 @@ public class BalancedBinaryTree {
      * 2 自底到顶+边计算边比较+快速失败
      *   从叶子向上开始边比较边计算，如有一个不符合返回 标志，后续无需重复计算
      *
-     * TODO: coding
+     * TODO: 考虑迭代方式实现  一层层处理  效率要低一些 <coding>
      * */
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
         }
-        throw new IllegalArgumentException("待coding");
+        return doCheckBalanced(root) >= 0;
+    }
+
+    private int doCheckBalanced(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        int left = doCheckBalanced(node.left);
+        if (left < 0) {
+            return left;
+        }
+        int right = doCheckBalanced(node.right);
+        if (right < 0) {
+            return right;
+        }
+        return Math.abs(right - left) > 1 ? -1 : Math.max(right, left) + 1;
     }
 
 
