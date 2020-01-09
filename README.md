@@ -204,3 +204,5 @@
 118 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_118/PascalTriangle.java">PascalTriangle</a>
 
 119 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_119/PascalTriangleII.java">PascalTriangleII</a>
+
+120 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_120/Triangle.java">Triangle</a>
