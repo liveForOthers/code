@@ -196,3 +196,5 @@
 114 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_114/FlattenBinaryTreeToLinkedList.java">FlattenBinaryTreeToLinkedList</a>
 
 115 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_115/DistinctSubsequences.java">DistinctSubsequences</a>
+
+116 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_116/PopulatingNextRightPointersInEachNode.java">PopulatingNextRightPointersInEachNode</a>
