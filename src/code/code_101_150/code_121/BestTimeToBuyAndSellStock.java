@@ -30,9 +30,25 @@ public class BestTimeToBuyAndSellStock {
     * 目标：
     *
     * 算法:
+    * 贪心 当前小于min  更新min
+    *      否则   尝试更新profit
+    *
+    * 学习： 不能维护最大以及 最小， 因为最大出现的地方可能是最小元素下标之前 没有意义
     *
     * */
     public int maxProfit(int[] prices) {
-
+        if(prices==null ||prices.length<=1){
+            return 0;
+        }
+        int min = Integer.MAX_VALUE;
+        int profit = 0;
+        for(int cur:prices){
+            if(cur <= min){
+                min = cur;
+                continue;
+            }
+            profit = Math.max(profit,cur-min);
+        }
+        return profit;
     }
 }
