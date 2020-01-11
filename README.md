@@ -219,4 +219,5 @@
 
 127 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_127/WordLadder.java">WordLadder</a>
 
+128 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_128/LongestConsecutiveSequence.java">LongestConsecutiveSequence</a>
 

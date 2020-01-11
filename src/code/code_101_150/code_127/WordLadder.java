@@ -70,6 +70,7 @@ public class WordLadder {
         if (!validateParams(beginWord, endWord, wordList)) {
             return 0;
         }
+        throw new IllegalArgumentException("wait to code");
     }
 
     private boolean validateParams(String beginWord, String endWord, List<String> wordList) {
