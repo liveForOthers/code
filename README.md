@@ -242,3 +242,9 @@
 138 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_138/CopyListWithRandomPointer.java">CopyListWithRandomPointer</a>
 
 139 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_139/WordBreak.java">WordBreak</a>
+
+140 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_140/LinkedListCycle.java">LinkedListCycle</a>
+
+141 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_101_150/code_141/LinkedListCycleII.java">LinkedListCycleII</a>
+
+
