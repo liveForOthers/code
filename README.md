@@ -267,3 +267,5 @@
 151 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_151/ReverseWordsinAString.java">ReverseWordsinAString</a>
 
 152 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_152/MaximumProductSubarray.java">MaximumProductSubarray</a>
+
+153 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_153/FindMinimumInRotatedSortedArray.java">FindMinimumInRotatedSortedArray</a>
