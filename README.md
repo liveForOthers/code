@@ -275,3 +275,5 @@
 155 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_155/IntersectionOfTwoLinkedLists.java">IntersectionOfTwoLinkedLists</a>
 
 165 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_165/CompareVersionNumbers.java">CompareVersionNumbers</a>
+
+166 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_166/FractionToRecurringDecimal.java">FractionToRecurringDecimal</a>
