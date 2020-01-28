@@ -293,3 +293,5 @@
 174 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_174/DungeonGame.java">DungeonGame</a>
 
 175 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_175/CombineTwoTables.java">CombineTwoTables</a>
+
+176 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_176/SecondHighestSalary.java">SecondHighestSalary</a>
