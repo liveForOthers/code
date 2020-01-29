@@ -307,3 +307,5 @@
 181 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_181/EmployeesEarningMoreThanTheirManagers.java">EmployeesEarningMoreThanTheirManagers</a>
 
 182 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_182/DuplicateEmails.java">DuplicateEmails</a>
+
+187 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_187/RepeatedDNASequences.java">RepeatedDNASequences</a>
