@@ -311,3 +311,5 @@
 187 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_187/RepeatedDNASequences.java">RepeatedDNASequences</a>
 
 189 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_189/RotateArray.java">RotateArray</a>
+
+190 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_190/ReverseBits.java">ReverseBits</a>
