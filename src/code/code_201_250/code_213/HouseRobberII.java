@@ -1,29 +1,16 @@
-package code.code_151_200.code_198;
+package code.code_201_250.code_213;
 
-public class HouseRobber {
-
-    /*
-     * 目标：不抢相邻银行的情况下 获得的最大收益
-     * 算法：
-     * 分为
-     * 1 可抢第一家 不抢最后一家
-     *   cur prev
-     * 2 不抢第一家 可以抢最后一家
-     *
-     * ps 第一家和最后一家不算相邻的。。
-     * todo 当前最大值计算 需要依赖 pp 以及ppp  复习思想
-     * */
+public class HouseRobberII {
     public static int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        /*if (nums.length == 1) {
+        if (nums.length == 1) {
             return nums[0];
         }
         int first = rob(nums, 0, nums.length - 2);
         int notFirst = rob(nums, 1, nums.length - 1);
-        return Math.max(first, notFirst);*/
-        return rob(nums, 0, nums.length - 1);
+        return Math.max(first, notFirst);
     }
 
     private static int rob(int[] nums, int begin, int end) {
@@ -49,7 +36,7 @@ public class HouseRobber {
     }
 
     public static void main(String[] args) {
-        int rob = rob(new int[]{2, 1, 1, 2});
+        int rob = rob(new int[]{1,2,3,1});
         System.out.println(rob);
     }
 }
