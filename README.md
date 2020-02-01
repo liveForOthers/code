@@ -328,3 +328,5 @@
 202 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_202/HappyNumber.java">HappyNumber</a>
 
 203 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_203/RemoveLinkedListElements.java">RemoveLinkedListElements</a>
+
+204 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_151_200/code_204/CountPrimes.java">CountPrimes</a>
