@@ -31,6 +31,8 @@ public class WordDictionary {
      *
      * 算法:
      * 使用前缀树  并扩展 '.'匹配一个字符的模糊搜索
+     *
+     * todo  使用set缓存  并以长度进行区分  对不同长度存入不同set来减少模糊搜索暴力搜索单词数目的方法值得借鉴
      * */
     public WordDictionary() {
         this.root = new TrieNode(false);
