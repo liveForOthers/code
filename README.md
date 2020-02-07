@@ -348,3 +348,6 @@
 212 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_212/WordSearchII.java">WordSearchII</a>
 
 213 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_213/HouseRobberII.java">HouseRobberII</a>
+
+214 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_214/ShortestPalindrome.java">ShortestPalindrome</a>
+
