@@ -88,27 +88,22 @@ public class KthLargestElementInanArray {
         if (k < 1 || nums == null || nums.length < k) {
             throw new IllegalArgumentException("params are error");
         }
-        return partition(nums, 0, nums.length, k);
+        return partition(nums, 0, nums.length, nums.length - k);
     }
 
-    private int partition(int[] nums, int begin, int end, int k) {
+    private int partition(int[] nums, int begin, int end, int targetIndex) {
         //todo 优化基准值  每次使用中值取代基准值
         int middle = (begin + end) >>> 1;
         swap(nums, begin, middle);
         //找到基准元素位置
         int index = findIndex(nums, begin, end);
-        //则基数是从大到小排列第end-i个数(end是不可达索引)
-        //如 end-i >k  说明end -i 以及其前面的数都是无用的数 begin = i+1(begin 是可达索引)
-        int cur = end - index;
-        if (cur > k) {
-            return partition(nums, index + 1, end, k);
+        if (index < targetIndex) {
+            return partition(nums, index + 1, end, targetIndex);
         }
-        //如 end-i==k  说明基数是第k大数  返回基数
-        if (cur == k) {
+        if (index == targetIndex) {
             return nums[index];
         }
-        //如 end-i<k   说明基数以及i后面的数比第k大数大  更新end = i 且 k = k-(end-i)
-        return partition(nums, begin, index, k - cur);
+        return partition(nums, begin, index, targetIndex);
     }
 
     private int findIndex(int[] nums, int begin, int end) {
@@ -129,7 +124,7 @@ public class KthLargestElementInanArray {
         return left;
     }
 
-    private void swap(int[] nums, int i, int j){
+    private void swap(int[] nums, int i, int j) {
         int tmp = nums[i];
         nums[i] = nums[j];
         nums[j] = tmp;
