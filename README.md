@@ -366,3 +366,5 @@
 221 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_221/MaximalSquare.java">MaximalSquare</a>
 
 222 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_222/CountCompleteTreeNodes.java">CountCompleteTreeNodes</a>
+
+223 <a href="https://github.com/liveForOthers/code/blob/master/src/code/code_201_250/code_223/RectangleArea.java">RectangleArea</a>
