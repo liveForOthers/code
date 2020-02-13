@@ -1,0 +1,26 @@
+第35题
+未通过用例：
+[1,2,5,6] target = 7
+实际输出:3
+期望输出:4
+
+原因：题目让找已存在元素的index  或待插入的index
+本code未考虑 待插入位置数组越界的情况
+class Solution {
+    public int searchInsert(int[] nums, int target) {
+        if(nums==null || nums.length==0){
+            return 0;
+        }
+        int left = 0;
+        int right = nums.length - 1; // 此处对于本题应改为 nums.length
+        while(left<right){
+            int mid = (left+right)>>>1;
+            if(nums[mid]<target){
+                left = mid+1;
+            }else{
+                right = mid;
+            }
+        }
+        return left;
+    }
+}
