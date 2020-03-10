@@ -6,7 +6,7 @@ Line 15: java.lang.StringIndexOutOfBoundsException: String index out of range: 1
 "-"
 原因：
 对符号处理时 判断完是符号后还继续判断是否是正号导致数组下标越界
-code:
+问题code:
         if(str.charAt(index)=='-'){
             isPositive = false;
             index++;
@@ -23,7 +23,7 @@ Line 7: java.lang.StringIndexOutOfBoundsException: String index out of range: 1
 原因：
 1 兼容前后空格时 未进行下标是否有效判断
 2 兼容前后空格后 处理符号时未判断下标是否还有效   无效应提前退出
-code：
+问题code：
         int index = 0;
         while(str.charAt(index)==' '){
             index++;
@@ -43,3 +43,17 @@ code：
 0
 预期：
 2147483647
+
+原因：
+使用long型存储数据防止整形溢出时 长整型溢出
+解决：
+边判断，边计算
+问题code:
+        long num = 0;
+        while(index<str.length()){
+            if(str.charAt(index)>'9' || str.charAt(index)<'0'){
+                break;
+            }
+            int cur = str.charAt(index++)-'0';
+            num = num*10+cur;
+        }

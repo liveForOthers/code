@@ -60,4 +60,47 @@ public class NumberOfIslands {
         bfs(grid, i, j - 1);
         bfs(grid, i, j + 1);
     }
+
+    public int numIslands2(char[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0].length == 0) {
+            return 0;
+        }
+        UnionFindCollection union = new UnionFindCollection(grid);
+        int sum = grid.length * grid[0].length;
+        for (int i = 0; i < sum; i++) {
+            int row = getRow(i, grid[0].length);
+            int col = getCol(i, grid[0].length);
+            if (grid[row][col] != '1') {
+                continue;
+            }
+            grid[row][col] = '2';
+            if (row > 0 && grid[row - 1][col] == '1') {
+                union.union(i, findIndex(row - 1, col, grid[0].length));
+            }
+            if (row < grid.length - 1 && grid[row + 1][col] == '1') {
+                union.union(i, findIndex(row + 1, col, grid[0].length));
+            }
+            if (col > 0 && grid[row][col - 1] == '1') {
+                union.union(i, findIndex(row, col - 1, grid[0].length));
+            }
+            if (col < grid[0].length - 1 && grid[row][col + 1] == '1') {
+                union.union(i, findIndex(row, col + 1, grid[0].length));
+            }
+        }
+        return union.count;
+    }
+
+    private int findIndex(int row, int col, int colLength) {
+        return row * colLength + col;
+    }
+
+    private int getRow(int number, int colLength) {
+        return number / colLength;
+    }
+
+    private int getCol(int number, int colLength) {
+        return number % colLength;
+    }
+
+
 }
