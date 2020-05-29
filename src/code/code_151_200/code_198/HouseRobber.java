@@ -1,5 +1,8 @@
 package code.code_151_200.code_198;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class HouseRobber {
 
     /*
@@ -51,5 +54,45 @@ public class HouseRobber {
     public static void main(String[] args) {
         int rob = rob(new int[]{2, 1, 1, 2});
         System.out.println(rob);
+    }
+
+    public int rob2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        Map<String, Integer> cache = new HashMap<>();
+        return getMaxRobEarn(nums, 0, nums.length, cache);
+    }
+
+    private int getMaxRobEarn(int[] nums, int beginIndex, int endIndex, Map<String, Integer> cache) {
+        if (endIndex <= beginIndex) {
+            return 0;
+        }
+        String key = beginIndex + ":" + endIndex;
+        Integer value = cache.get(key);
+        if(value != null) {
+            return value;
+        }
+        int robWithFirst = nums[beginIndex] + getMaxRobEarn(nums, beginIndex + 2, nums.length, cache);
+        int robWithoutFirst = getMaxRobEarn(nums, beginIndex + 1, nums.length, cache);
+        int result = Math.max(robWithFirst, robWithoutFirst);
+        cache.put(key, result);
+        return result;
+    }
+
+    public int rob3(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        // dp[i] = max(dp[i-2] + nums[i], dp[i-1])
+        int pp = nums[0];
+        int p = nums.length > 1 ? Math.max(nums[0], nums[1]) : pp;
+        for (int i = 2; i < nums.length; i++) {
+            int cur = Math.max(pp + nums[i], p);
+            pp = p;
+            p = cur;
+        }
+        return p;
+
     }
 }
