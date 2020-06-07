@@ -34,6 +34,9 @@ public class VerifyPowerOfTwo {
      * 利用此性质可以判断数n是否为2的幂
      * (n & -n) == n
      * 常用于哈希散列算法中  如 netty给eventLoopGroup 中的线程分配任务就是使用的此方式
+     *
+     * leetcode 同题 位运算技巧
+     * https://leetcode-cn.com/problems/power-of-two/solution/2de-mi-by-leetcode/
      * */
     public boolean verifyPowerOfTwo(int n) {
         return (n & -n) == n;
