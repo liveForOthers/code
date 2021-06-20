@@ -2,3 +2,8 @@
 1 算法思路明确
 需要巩固：
 1 如何抽象出方法，对象进行合理的封装
+
+2021/06/20
+1 String.length()
+2 String.substring(beginIndex, endIndex)
+3 初始化
